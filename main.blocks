@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="1!#R{8=[2-Ey(,E7IchS">Steen</variable><variable id="/QJiIzGD?s;Du||zPE,A">Papier</variable><variable id="p3u]N10iP?`_yhY!FT~z">tool</variable></variables><block type="pxt-on-start" id="*0yd$XOOx}1_fe/{18x2" x="0" y="0"/><block type="device_forever" id="IoObp,:nbva_A-}s1s;d" x="205" y="0"/><block type="device_gesture_event" id="NbB;mXuE*!:LUi_-W*}x" x="76" y="173"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="(ZVN/5mb(W=^Bm%SvGJ/"><field name="VAR" id="1!#R{8=[2-Ey(,E7IchS">Steen</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="9hQl%au(96WfpCG6Dlr9"><value name="min"><shadow type="math_number" id="J@g8l9d68=r6uoLw^QB]"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="e++D}aeMsxQL4.Y[/^_|"><field name="NUM">2</field></shadow></value></block></value><next><block type="controls_if" id="0ZI#lOK9ij7io6eVHf.E"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!e6A}h3v`%lJG^Hk;aKV"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="pvem4VJF_*4*%PH^HJ6|"><field name="VAR" id="p3u]N10iP?`_yhY!FT~z">tool</field></block></value><value name="B"><shadow type="math_number" id="SmApQoWHXLQbj:jYb-bR"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="3ukSUr1z|$7)9NJ7lWt?"><field name="LEDS">`
+        . . # # # 
+        . # # . # 
+        # # . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="@-JMQEZ59mx0%1862q,8"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="0Sz%(zq(_ER=CrR{[#^9"><field name="VAR" id="p3u]N10iP?`_yhY!FT~z">tool</field></block></value><value name="B"><shadow type="math_number" id="1e.iWRrcenlkWxJR8QEs"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="vdF=%bIEmVovs//hRBB;"><field name="LEDS">`
+        . # # . . 
+        # # # # . 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="CWJH/]DHb{v_1XO.ZTh-"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
